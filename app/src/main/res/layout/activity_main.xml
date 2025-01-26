@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/bienvenidaLayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="30dp"
+            android:text="Dulce Aprendizaje"
+            android:textAlignment="center"
+            android:textColor="#6A19A4"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:text="Bienvenido amiguito"
+            android:textAlignment="center"
+            android:textColor="#0BA076"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="310dp"
+            android:layout_height="203dp"
+            android:layout_marginRight="30dp"
+            android:text="Pulsa &quot;Empezar&quot; para contestar un cuestionario de preguntas, tú puedes!"
+            android:textAlignment="center"
+            android:textColor="#0BA076"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnEmpezar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#4CAF50"
+            android:onClick="empezar"
+            android:text="Empezar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
