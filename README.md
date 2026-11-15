@@ -61,7 +61,8 @@ To deploy this solution in a viable and sustainable way in the Ecuadorian indust
 ## Demostración en video
 
 
+https://github.com/user-attachments/assets/c03a233d-7c7f-42cc-a2f8-8200ea9ee0ad
 
-https://github.com/user-attachments/assets/7a921ee3-d2a4-4e7f-b50a-118e346c790c
+
 
 
