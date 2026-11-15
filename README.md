@@ -59,9 +59,7 @@ To deploy this solution in a viable and sustainable way in the Ecuadorian indust
 * **ROS 2 use_sim_time configuration:** In simulations with Gazebo Harmonic and ROS 2 Jazzy, rigorously verify that all active nodes (self_controller, slam_toolbox, rviz2) have the parameter use_sim_time:=true. Otherwise, desynchronizations occur in the tf buffer, causing localization drops.
 * **Closed-Loop Mapping Strategy:** During the mapping phase with Nav2/slam_toolbox, remotely control the robot at low speed (v ≤ 0.2 m/s) and ensure closed circular paths (loop closures). This allows the graph optimizer to correct odimetric drift in a timely manner before persisting the .yaml and .pgm maps.
 ## Demostración en video
-
-
-https://github.com/user-attachments/assets/c03a233d-7c7f-42cc-a2f8-8200ea9ee0ad
+https://github.com/user-attachments/assets/5ea3a959-d337-4476-bfe0-99c7ca0fd457
 
 
 
