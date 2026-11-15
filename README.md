@@ -58,4 +58,10 @@ To deploy this solution in a viable and sustainable way in the Ecuadorian indust
 * **Preventive Maintenance Protocol:** Establish weekly cleaning inspections of the bearings of each of the **45°** rollers. The accumulation of lint, dust, or metal shavings blocks the free rotation of the passive rollers, degrading the omnidirectional kinematics to erratic behavior.
 * **ROS 2 use_sim_time configuration:** In simulations with Gazebo Harmonic and ROS 2 Jazzy, rigorously verify that all active nodes (self_controller, slam_toolbox, rviz2) have the parameter use_sim_time:=true. Otherwise, desynchronizations occur in the tf buffer, causing localization drops.
 * **Closed-Loop Mapping Strategy:** During the mapping phase with Nav2/slam_toolbox, remotely control the robot at low speed (v ≤ 0.2 m/s) and ensure closed circular paths (loop closures). This allows the graph optimizer to correct odimetric drift in a timely manner before persisting the .yaml and .pgm maps.
-https://github.com/DanielReborn01/Dulce-Aprendizaje/raw/main/Clone_Build_Controller_Package_Amaya.mp4
+## Demostración en video
+
+
+
+https://github.com/user-attachments/assets/7a921ee3-d2a4-4e7f-b50a-118e346c790c
+
+
